@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  
+#s {
+    background-color: #a0542c;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+  
+#l {
+    background-color: sandybrown;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+  
+#o {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left: 200px;
+}
+  
+#t {
+    background-color: black;
+    height: 50px;
+    width: 30px;
+    border-radius: 50%;
+    left: 200px;
+}
+  
+#h {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    left: 200px;
+}
