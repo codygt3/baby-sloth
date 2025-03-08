@@ -27,18 +27,23 @@ Let's start by deleting the HTML between the comments, so we can practice adding
 
 Create elements like this:
 ```
-var main = document.createElement(“main”);
+let paragraph = document.createElement("p");
+```
+
+Add attributes to elements like this:
+```
+paragraph.id = "paragraph";
 ```
 
 We need the body element, so we can append things into it!
 
 ```
-var body = document.getElementById(“body”);
+let body = document.getElementById("body");
 ```
 
 Append things like this:
 ```
-body.appendChild(main);
+body.appendChild(paragraph);
 ```
 
 The DOM Tree looks like this:
